@@ -1,7 +1,7 @@
 {
     "globalHeaders": 
     {
-        "Content-Security-Policy": "default-src self",
+        "Content-Security-Policy": "default-src 'self'",
         "X-Frame-Options": "DENY",
         "Permissions-Policy": "document-domain=(), navigation-override=(), execution-while-not-rendered=(), execution-while-out-of-viewport=()",
         "Cross-Origin-Embedder-Policy": "require-corp",
