@@ -3,7 +3,7 @@
     {
         "Content-Security-Policy": "default-src self",
         "X-Frame-Options": "DENY",
-        "Permissions-Policy": "",
+        "Permissions-Policy": "document-domain=(), navigation-override=(), execution-while-not-rendered=(), execution-while-out-of-viewport=()",
         "Cross-Origin-Embedder-Policy": "require-corp",
         "Cross-Origin-Opener-Policy": "same-origin",
         "Cross-Origin-Resource-Policy": "same-site"
